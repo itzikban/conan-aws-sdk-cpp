@@ -10,4 +10,4 @@
 
 # Deprecated
 
-Thanks to the efforts of [@MartinDelille](https://github.com/MartinDelille) aws-sdk-cpp is officially available in conan-center. This package is deprecated and is no longer being maintained. Please consider using the official package from conan-center
+Thanks to the efforts of [@MartinDelille](https://github.com/MartinDelille) aws-sdk-cpp is officially available in conan-center. This package is deprecated and is no longer being maintained. Please consider using the [official package from conan-center](https://conan.io/center/aws-sdk-cpp).
