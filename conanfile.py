@@ -169,7 +169,7 @@ class AwssdkcppConan(ConanFile):
     def requirements(self):
         if self.settings.os != "Windows":
             if self.settings.os != "Macos":
-                self.requires("openssl/1.1.1d")
+                self.requires("openssl/1.1.1w")
             self.requires("libcurl/7.66.0@bincrafters/stable")
 
     def source(self):
