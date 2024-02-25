@@ -15,7 +15,7 @@ class AwssdkcppConan(ConanFile):
     short_paths = True
     settings = "os", "compiler", "build_type", "arch"
     generators = "cmake"
-    requires = "zlib/1.2.11"
+    requires = "zlib/1.3.1"
     exports_sources = ["patch-cmakelists.patch", "patch-c-libs.patch"]
     sdks = ("access_management",
             "acm",
